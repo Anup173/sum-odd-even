@@ -12,7 +12,7 @@ def result():
     u_input = request.form.get("num")
     if not u_input:
         return redirect("/")
-    number = 19
+    number = 53
     return render_template("result.html", fib_num = number)
 
 if __name__ == '__main__':
